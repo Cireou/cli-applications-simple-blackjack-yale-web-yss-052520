@@ -31,7 +31,8 @@ end
 def hit?(card_total)
   input = nil
   loop do
-    
+    prompt_user
+    input = get_user_input
     break if input == 's' || input == 'h'
   end 
   
