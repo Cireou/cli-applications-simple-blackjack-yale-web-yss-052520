@@ -30,7 +30,7 @@ end
 
 def hit?(card_total)
   input = nil
-  while !input
+  while !input == 'h' || !input =='s' do
     prompt_user
     input = get_user_input
   end 
