@@ -30,7 +30,9 @@ end
 
 def hit?(card_total)
   input = nil
-  do 
+  loop do
+    
+  end 
   
   if input == 's'
     pass
