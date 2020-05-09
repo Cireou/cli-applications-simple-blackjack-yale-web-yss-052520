@@ -28,8 +28,18 @@ def initial_round
   total
 end
 
-def hit?
-  # code hit? here
+def hit?(card_total)
+  input = nil
+  do 
+  
+  if input == 's'
+    pass
+  elsif input == 'h'
+    pass
+  else 
+    invalid_command
+  end 
+  
 end
 
 def invalid_command
